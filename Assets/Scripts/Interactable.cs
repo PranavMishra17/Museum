@@ -67,10 +67,6 @@ public class Interactable : MonoBehaviour
             nftPanel.SetActive(false);
         }
         
-        if (!nftPanel.activeSelf)
-        {
-           // timerOn = false;
-        }
     }
     public void showText()
     {

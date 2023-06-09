@@ -56,7 +56,7 @@ public class Interactor : MonoBehaviour
         {
             if (onetime)
             {
-                if(hit.collider.tag == "door")
+                if(hit.collider.tag == "door" || hit.collider.tag == "Pickable")
                 {
                     imgg.sprite = hand;
                 }
